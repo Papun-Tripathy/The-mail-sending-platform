@@ -1,0 +1,45 @@
+#HomePage{
+    background-color: #fffff8;
+    
+}
+#BodyContent{
+    display: flex;
+    margin-top: 80px;
+}
+#LeftSideActionBar{
+    flex: 2;
+    z-index: 1;
+    position: sticky;
+    top: 80px;
+    height: 100vh;
+    border-right: 1px solid navy;
+    padding: 10px;
+
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#SideTopComposeButton{
+    outline: none;
+    background-color: orange;
+    border: 1px solid lightslategrey;
+    padding: 15px 5px;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 15px;
+    color: mintcream;
+    box-shadow: 0 0 8px lightslategrey, 0 0 3px black;
+    cursor: pointer;
+}
+#SideTopComposeButton:active{
+    background-color: orangered;
+    color: lightslategrey;
+
+}
+#ContentBody{
+    flex: 8;
+    padding: 10px;
+    height: 200vh;
+}

@@ -1,0 +1,18 @@
+#ButtonHaiYeh{
+    outline: none;
+    background-color: orange;
+    border: 1px solid lightslategrey;
+    padding: 15px 5px;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 15px;
+    color: mintcream;
+    box-shadow: 0 0 8px lightslategrey, 0 0 3px black;
+    cursor: pointer;
+}
+#ButtonHaiYeh:active{
+    background-color: orangered;
+    color: lightslategrey;
+
+}

@@ -1,0 +1,50 @@
+#Head{
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aliceblue;
+    border-bottom: 1px solid lightslategrey;
+}
+.HomePageHead{
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#HeadLogo{
+    display: inline;
+    width: 150px;
+    /* background-color: red; */
+}
+#HeadLogoImg{
+    object-fit: contain;
+    height: 100%;
+}
+#HeadProfile{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#HeadProfileButton{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+#HeadProfileImage{
+    height: 45px;
+    border-radius: 45%;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+
+#HeadProfileName{
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
