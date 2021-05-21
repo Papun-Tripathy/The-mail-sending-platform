@@ -3,6 +3,8 @@ import Head from "./Head";
 import "../CSS/HomePage.css";
 import Modal from "react-modal";
 import Button from "./Components/Button";
+import SingleSentMessageContainer from "./Components/SingleSentMessageContainer";
+import DataSet from "../DataSet.json"
 
 Modal.setAppElement("#root");
 
@@ -70,6 +72,7 @@ function HomePage() {
 					</Modal>
 				</div>
 				<div id="ContentBody">
+				{/* here i have to conditionally rener all the messages that are send to that platform  */}
 					{/* the different type of messages are sent are to be shown here */}
 				</div>
 			</section>

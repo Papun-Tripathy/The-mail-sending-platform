@@ -1,0 +1,43 @@
+#MessageBox{
+    border: 2px solid lightslategray;
+    background-color:seashell;
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 8px;
+}
+#SelectBoxDiv{
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SelectBox{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+#ContentDetails{
+    flex: 1;
+    width: 100%;
+    margin-left: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+#UpPart{
+    flex: 3;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+#UpPart p{
+    margin: auto 0;
+    font-weight: 600;
+}
+#BottomPart{
+    flex: 7;
+    font-size: 1.1rem;
+    max-lines: 2;
+}
